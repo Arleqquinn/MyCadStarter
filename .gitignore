@@ -1,0 +1,7 @@
+build/
+.qtcreator/
+*.user
+CMakeLists.txt.user
+docs/build/
+Testing/
+*.exe

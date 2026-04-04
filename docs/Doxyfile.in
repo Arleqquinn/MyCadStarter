@@ -1,0 +1,19 @@
+PROJECT_NAME           = "MyCadStarter"
+PROJECT_BRIEF          = "Небольшое CAD-приложение на Qt и OpenCascade"
+OUTPUT_DIRECTORY       = @CMAKE_CURRENT_SOURCE_DIR@/docs/build
+CREATE_SUBDIRS         = NO
+ALLOW_UNICODE_NAMES    = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = YES
+QUIET                  = YES
+WARN_IF_UNDOCUMENTED   = NO
+INPUT                  = @CMAKE_CURRENT_SOURCE_DIR@/app \
+                         @CMAKE_CURRENT_SOURCE_DIR@/core \
+                         @CMAKE_CURRENT_SOURCE_DIR@/geometry \
+                         @CMAKE_CURRENT_SOURCE_DIR@/ui
+FILE_PATTERNS          = *.h *.hpp *.cpp
+RECURSIVE              = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+USE_MDFILE_AS_MAINPAGE = @CMAKE_CURRENT_SOURCE_DIR@/README.md

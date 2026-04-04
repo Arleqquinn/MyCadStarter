@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/new.svg</file>
+        <file>icons/import.svg</file>
+        <file>icons/export.svg</file>
+        <file>icons/box.svg</file>
+        <file>icons/cylinder.svg</file>
+        <file>icons/sphere.svg</file>
+        <file>icons/cone.svg</file>
+        <file>icons/torus.svg</file>
+        <file>icons/move.svg</file>
+        <file>icons/duplicate.svg</file>
+        <file>icons/cut.svg</file>
+        <file>icons/fuse.svg</file>
+        <file>icons/common.svg</file>
+        <file>icons/front.svg</file>
+        <file>icons/right.svg</file>
+        <file>icons/top.svg</file>
+        <file>icons/delete.svg</file>
+        <file>icons/view_iso.svg</file>
+        <file>icons/fit.svg</file>
+        <file>icons/log.svg</file>
+        <file>icons/shape.svg</file>
+    </qresource>
+</RCC>
